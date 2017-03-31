@@ -22,3 +22,18 @@ How to write or store data into temporary file in python?
 How to delete temporary file in python?
 How to write string content to a file in python?
 How to write byte content to a file in python
+
+####################################################################
+## Python basic questions:
+1. why '.pyc' file gets generated if python is an interpreter language
+2. difference between old-style and new-style classes
+3. Explain 'new' method in python classes
+4. Explain the purpose of decorators
+5. Can we use 'return' function in lambda function?
+6. What are the special methods of the classes?
+7. Explain Context Manager
+8. Significance of 'self'
+9. What is 'attribute lookup'?
+10. get and set attributes in python
+11. uses of 'yield' function
+12. difference between various versions of python

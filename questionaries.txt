@@ -37,3 +37,7 @@ How to write byte content to a file in python
 10. get and set attributes in python
 11. uses of 'yield' function
 12. difference between various versions of python
+13. difference between iterators and generators
+14. difference between iterators and list
+15. difference between range and xrange
+

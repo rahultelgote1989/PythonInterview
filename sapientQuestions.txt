@@ -6,7 +6,11 @@ What is SQL Data Definition Language (DDL)?
 Explain the steps to convert ER Diagram to tables.
 Explain the approaches of flattening the table & decomposing the table in 1NF.
 State two differences between DBMS and RDBMS.
-
+What is ACID in Database management?
+How is Durability maintained in Database?
+Concepts related to Having clause and when to use where and when to use having?
+Difference between Delete and Truncate.
+Write SQL query to select employer name from table, group by department number, and SSN= 24235?
 
 ## Language questions:
 What are null pointers and when are they used?
@@ -28,13 +32,9 @@ You are given a String, give the algorithm to find the number of occurrences of 
 ## Data structure and Algorithms:
 What is backtracking? Explain 8-Queens problem & brief approach to solve it.
 Explain the procedure for deleting a singly linked list.
-5) Implement stack using Queues.
-6) Give the Linked List Implementation of Stack.
-7) What is ACID in Database management?
-8) How is Durability maintained in Database?
-9) Concepts related to Having clause and when to use where and when to use having?
-10) Difference between Delete and Truncate.
-11) Write SQL query to select employer name from table, group by department number, and SSN= 24235?
+Implement stack using Queues.
+Give the Linked List Implementation of Stack.
+
 
 
 ## Sorting:

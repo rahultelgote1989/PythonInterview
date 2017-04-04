@@ -1,11 +1,46 @@
 ## Database questions:
-
+Define Join and explain its types.
+What is a composite primary key?
+Explain materialized views.
+What is SQL Data Definition Language (DDL)?
+Explain the steps to convert ER Diagram to tables.
+Explain the approaches of flattening the table & decomposing the table in 1NF.
+State two differences between DBMS and RDBMS.
 
 
 ## Language questions:
+What are null pointers and when are they used?
+What is the difference between set & lists?
+Explain dynamic & static binding.
+Explain truncate & round functions.
+What are you understand by meta-dictionary?
+What are advantages of using cin & cout compared to printf & scanf, respectively?
+Explain a function template.
+What are the conditions for a deadlock to occur in OS?
+What are cursors? Explain its types.
+Differentiate between a Copy Constructor & Assignment Operator.
+Swap two integer variables without using a third temporary variable.
+What is the difference between malloc() & calloc() function?
+What do you mean by polymorphism in C++?
+How to find a duplicate number in a fixed length array, provided that only one element is duplicated.
+You are given a String, give the algorithm to find the number of occurrences of that string in the given paragraph.
+
+## Data structure and Algorithms:
+What is backtracking? Explain 8-Queens problem & brief approach to solve it.
+Explain the procedure for deleting a singly linked list.
+5) Implement stack using Queues.
+6) Give the Linked List Implementation of Stack.
+7) What is ACID in Database management?
+8) How is Durability maintained in Database?
+9) Concepts related to Having clause and when to use where and when to use having?
+10) Difference between Delete and Truncate.
+11) Write SQL query to select employer name from table, group by department number, and SSN= 24235?
 
 
+## Sorting:
+What is Bubble sort, Selections sort?
+What is Shell sort, Counting Sort?
 
-
-## Datastructure and Algorithms:
+## Miscellaneous:
+What do you mean by Hash Table?
 

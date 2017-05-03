@@ -1,1 +1,2 @@
 https://rhettinger.wordpress.com/2011/05/26/super-considered-super/
+https://infohost.nmt.edu/tcc/help/pubs/python/web/special-methods.html

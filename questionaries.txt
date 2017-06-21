@@ -42,3 +42,16 @@ How to write byte content to a file in python
 15. difference between range and xrange
 16. python getattr(get attribute) and setattr(set attribute)
 17. class attributes, class methods, instance attributes, instance methods
+
+############################################################################
+## Python Meta Programming Questions:
+1. How Lists, Dictionaries, Tuples, Sets, Strings, Integers are implementeed in Python?
+2. What is the internal structure if 'class'?
+3. What is the internal process behind creating objects in python? and the flow, what special and magic methods it involves?
+4. Implementation behind the 'for' and while loop.
+5. Difference between shallow copy and deep copy
+6. what is eval method in python?
+7. Difference between Mutability and Immutability.
+8. __iter__ Vs __getitems__
+9. What happens internally when we do 'import <module name>'?
+10. 

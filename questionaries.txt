@@ -54,4 +54,4 @@ How to write byte content to a file in python
 7. Difference between Mutability and Immutability.
 8. __iter__ Vs __getitems__
 9. What happens internally when we do 'import <module name>'?
-10. 
+10. How python does sorting, what algorithm it uses internally?

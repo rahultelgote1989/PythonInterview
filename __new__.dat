@@ -1,0 +1,43 @@
+
+Calling __new__ method from the old-style classes
+Old-style classes don't actually have a __new__ method because for them __init__ is the constructor,
+
+
+>>> class A:
+...
+...     def __new__(cls):
+...
+...         print "A.__new__ is called"
+...
+>>> A()
+<__main__.A instance at 0x7ff0f9cf3cb0>
+>>>
+
+where as we can print or add in __init__ method, but we can not return anything 
+from  __init__ method. __init__ method should return None
+
+>>>
+>>> class A:
+...     def __new__(cls):
+...         print "A.__new__ is called"
+...     def __init__(self):
+...         print "A.__init__ is called"
+...         return "Hello"
+...
+>>> A()
+A.__init__ is called
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: __init__() should return None
+>>>
+>>> class A:
+...     def __new__(cls):
+...         print "A.__new__ is called"
+...     def __init__(self):
+...         print "A.__init__ is called"
+...         return None
+...
+>>> A()
+A.__init__ is called
+<__main__.A instance at 0x7ff0f9cfc560>
+>>>

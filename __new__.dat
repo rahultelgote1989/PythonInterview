@@ -41,3 +41,30 @@ TypeError: __init__() should return None
 A.__init__ is called
 <__main__.A instance at 0x7ff0f9cfc560>
 >>>
+
+We can return the instance of the different class
+
+class Sample(object):
+	def __str__(self):
+		return "SAMPLE"
+
+class A(object):
+	def __new__(cls):
+		return Sample()
+
+>>> 
+>>> class Sample(object):
+	def __str__(self):
+		return "SAMPLE"
+
+>>> class A(object):
+	def __new__(cls):
+		return Sample()
+	
+>>> A()
+<__main__.Sample object at 0x00000000035EBD30>
+>>> print(A())
+SAMPLE
+>>> 
+
+

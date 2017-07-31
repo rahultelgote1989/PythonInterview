@@ -1,7 +1,6 @@
 
 Calling __new__ method from the old-style classes
-Old-style classes don't actually have a __new__ method because for them __init__ is the constructor,
-
+Old-style classes don't actually have a __new__ method because for them __init__ is the constructor'
 
 >>> class A:
 ...
@@ -67,4 +66,43 @@ class A(object):
 SAMPLE
 >>> 
 
+We can change the type of the return instance
+>>> class HiFi(object):
+	def __new__(cls):
+		return 5
 
+	
+>>> retobj = HiFi()
+>>> type(retobj)
+<class 'int'>
+>>> 
+>>> print(HiFi())
+5
+>>> 
+>>> 
+
+to create limited number of instances of the class
+
+class SquareVertex(object):
+	MAX_INST = 4
+	INST_CREATED = 0
+
+	def __new__(cls, *args, **kwargs):
+
+		if cls.INST_CREATED >= cls.MAX_INST:
+			raise ValueError("Cannot create more objects.")
+		cls.INST_CREATED += 1
+		return super().__new__(cls)
+
+p1 = SquareVertex(0,0)
+p2 = SquareVertex(0,1)
+p3 = SquareVertex(1,0)
+p4 = SquareVertex(1,1)
+p5 = SquareVertex(2,2)
+
+Traceback (most recent call last):
+  File "D:\PythonPractice\test.py", line 18, in <module>
+    p5 = SquareVertex(2,2)
+  File "D:\PythonPractice\test.py", line 10, in __new__
+    raise ValueError("Cannot create more objects.")
+ValueError: Cannot create more objects.
